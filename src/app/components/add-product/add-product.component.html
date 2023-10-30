@@ -1,0 +1,15 @@
+<div>
+  <h2>Add Product</h2>
+  <form (submit)="handleSubmit()">
+    <div>
+      <label>Product Name:</label>
+      <input
+        type="text"
+        name="productName"
+        [(ngModel)]="productName"
+        required
+      />
+    </div>
+    <button type="submit">Add</button>
+  </form>
+</div>
